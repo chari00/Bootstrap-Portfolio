@@ -10,17 +10,19 @@
 
  #header {
     width: 100%;
-    height: 110vh;
+    height: 30vh;
     background-size: cover;
-    background-position: center;
-    background-image: url();
+    background-position: end;
  }
+
 
 .container {
     padding: 10px 10%;
 }
 .logo {
     width: 120px;
+
+
 }
 
 h1 {
@@ -46,6 +48,9 @@ h1 {
     font-size: larger;
 
 }
+p {
+    color: white;
+}
 
 nav ul li {
     display: inline-block;
@@ -63,4 +68,25 @@ a{
 
 h2 {
     color: white;
+}
+
+.page-section {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(43, 39, 39);
+
+
+
+}
+
+.work {
+    width: 90%;
+    height: 15vh;
+    background-size: cover;
+    background-position: end;
+}
+
+.contact a{
+    padding: 10px;
 }
