@@ -9,11 +9,11 @@
  }
 
  #header {
-    width: 100%;
-    height: 30vh;
+    width: 10%;
+    height: 35vh;
     background-size: cover;
     background-position: end;
- }
+}
 
 
 .container {
@@ -21,6 +21,9 @@
 }
 .logo {
     width: 120px;
+    /* display: flex; */
+    /* justify-content: left; */
+    /* align-items: left; */
 
 
 }
@@ -53,17 +56,24 @@ p {
 }
 
 nav ul li {
-    display: inline-block;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-content: center; */
     list-style: none;
     margin: 5px 10px ;
 }
 
 a{
+    display: inline;
     color: azure;
     text-decoration: none;
     font-size: medium;
     position: relative;
     
+}
+ul {
+    display: flex;
+    justify-content: space-between
 }
 
 h2 {
@@ -79,13 +89,14 @@ h2 {
 
 
 }
-
+/* 
 .work {
     width: 90%;
     height: 15vh;
     background-size: cover;
     background-position: end;
-}
+    
+} */
 
 .contact a{
     padding: 10px;
