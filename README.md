@@ -1,64 +1,93 @@
-# Bootstrap - My Portfolio
+# My Portfolio
 
 ## Description
-
+Portfolio webpage composed with bootstrap.
 
 
 ## Table of Content
-- About Me
-- Work
-- Contact Me
-- Resume
+- 
+- 
+- 
+- 
 
 
 ## Visual
 
+### Normal view of the website.
+<img src="./images/" alt=""/>
 
-## My process
+### Small viewport 450px background change to green.
+<img src="./images/" alt=""/>
+
+### Small viewport 350px text change to red.
+<img src="./images/" alt=""/>
+
+
+
 
 ### Built with
 
 - Media query
 - Flexbox
 - CSS Grid
+- Bootstrap
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
 ```Media query
-<h1>Some HTML code I'm proud of</h1>
+@media screen and (max-width: 450px) {
+  * {
+    background-color: yellowgreen;
+  }
+}
+
 ```
 
 ```CSS Grid
-.proud-of-this-css {
-  color: papayawhip;
+.grid-templateAreas {
+  display: grid;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 5px aquamarine solid;
+  height: 380px;
 }
+
 ```
 
 ```Flexbox
-const proudOfThisFunc = () => {
-  console.log("🎉");
+ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: black;
 }
+
 ```
+```Bootstrap
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
 
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-
+```
 ## Links
 
 ### Source code location
 https://github.com/chari00/challenge-2 
 
 ### Website URL
-https://chari00.github.io/challenge-2/ 
+https://chari00.github.io/My-Portfolio/ 
+
+### Source code location for bootstrap
+https://getbootstrap.com/docs/4.3/components/jumbotron/ 
+
+
 
 ## License
 

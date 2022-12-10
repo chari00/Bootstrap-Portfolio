@@ -18,9 +18,11 @@
 
 .container {
     padding: 10px 10%;
+    display: inline;
 }
 .logo {
     width: 120px;
+    display: inline;
     /* display: flex; */
     /* justify-content: left; */
     /* align-items: left; */
@@ -81,9 +83,9 @@ h2 {
 }
 
 .page-section {
-    display: grid;
-    grid-template-columns: 25% 65%;
-    grid-template-columns: repeat(4,1fr);
+    /* display: grid; */
+    /* grid-template-columns: 25% 65%; */
+    /* grid-template-columns: 1fr */
     background-color: rgb(43, 39, 39);
 
 
