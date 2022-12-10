@@ -10,18 +10,21 @@
 
  #header {
     width: 10%;
-    height: 35vh;
+    height: 25vh;
+    margin: 20px 30px;
     background-size: cover;
-    background-position: end;
+    background-position: center;
+    background-image: url(../images/logo.png);
 }
 
 
-.container {
-    padding: 10px 10%;
-    display: inline;
+.container-nav {
+    padding: 10px 10px;
+    /* /* display: inline;  */
 }
+
 .logo {
-    width: 120px;
+    width: 10px;
     display: inline;
     /* display: flex; */
     /* justify-content: left; */
@@ -36,7 +39,7 @@ h1 {
     font-style: italic ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.M {
+/* .M {
     color: red;
 }   
 
@@ -46,36 +49,44 @@ h1 {
 }
 
 .C2 {
-    color: yellowgreen ;
+    color: yellow ;
 }
 
 .M, .C1, .C2 {
     font-size: larger;
 
-}
+} */
 p {
     color: white;
 }
 
 nav ul li {
     display: flex;
+    justify-items: end;
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+
     /* justify-content: space-around; */
     /* align-content: center; */
     list-style: none;
-    margin: 5px 10px ;
+    margin: 10px 10px;
+
 }
 
-a{
+li a{
     display: inline;
-    color: azure;
     text-decoration: none;
-    font-size: medium;
+    color: white;
+    font-size: large;
     position: relative;
+    
     
 }
 ul {
     display: flex;
-    justify-content: space-between
+    justify-content: flex-end;
+    flex-direction: row;
+    
 }
 
 h2 {
@@ -102,4 +113,18 @@ h2 {
 
 .contact a{
     padding: 10px;
+}
+
+.jumbotron {
+    background-color: black;
+    background-image: url(../images/Profile-picture.jpg);
+    background-repeat: no-repeat;
+    margin: 10vh 20vh;
+    padding: 35px;
+}
+
+.jumbo-intro {
+    width:fit-content;
+    margin-left: 35vh;
+    
 }
