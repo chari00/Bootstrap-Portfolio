@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+ body {
+    background-color: black;
+ }
+
+ #header {
+    display: flex;
+    width: 10%;
+    height: 25vh;
+    margin: 20px 30px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/logo.png);
+}
+
+
+.container {
+    padding: 10px 10px;
+    display: inline; 
+}
+
+.logo {
+    width: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: left;
+    /* align-items: left; */
+
+
+}
+
+h1 {
+    display: flex;
+    color:aliceblue;
+    font-style: italic ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .M {
+    color: red;
+}   
+
+.C1 {
+    color: blue;
+
+}
+
+.C2 {
+    color: yellow ;
+}
+
+.M, .C1, .C2 {
+    font-size: larger;
+
+} */
+p {
+    color: white;
+}
+
+nav ul li a{
+    display: flex;
+    justify-items: end;
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+
+    /* justify-content: space-around; */
+    /* align-content: center; */
+    margin: 10px 10px;
+
+}
+
+li a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    position: relative;
+    
+    
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+
+    
+
+}
+nav a:hover {
+    color: darkred;
+}
+
+
+
+h2 {
+    color: white;
+}
+
+.page-section {
+    /* display: grid; */
+    /* grid-template-columns: 25% 65%; */
+    /* grid-template-columns: 1fr */
+    background-color: rgb(43, 39, 39);
+
+
+
+}
+/* 
+.work {
+    width: 90%;
+    height: 15vh;
+    background-size: cover;
+    background-position: end;
+    
+} */
+
+.contact a{
+    padding: 10px;
+}
+
+.jumbotron {
+    background-color: black;
+    background-image: url(../images/Profile-picture.jpg);
+    background-repeat: no-repeat;
+    margin: 10vh 20vh;
+    padding: 35px;
+}
+
+.jumbo-intro {
+    width:fit-content;
+    margin-left: 35vh;
+    
+}
+.menu {
+    display: none;
+}
+
+.menu-list {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+    
+}
+
+.card-text {
+    color: black;
+}
+
+.card {
+}
+
+.list-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+
+}
+.list-item {
+    list-style-type: disc;
+}
+
+/* 
+
+@media screen and (max-with: 450px) {
+
+    
+} */
