@@ -1,4 +1,5 @@
 # My Portfolio
+
 ## Table of Content
 1. Description
 2. Visual
@@ -13,36 +14,38 @@ Portfolio webpage composed with bootstrap.
 
 ## Visual
 
-### Normal view of the website.
-<img src="./images/" alt=""/>
+### Pre-work study Guide
+<img src="../Bootstrap-Portfolio/images/pre-work.png" alt=""/>
 
-### Small viewport 450px background change to green.
-<img src="./images/" alt=""/>
+### Horiseon Website Project
+<img src="../Bootstrap-Portfolio/images/Challenge1-Horiseon.png" alt=""/>
 
-### Small viewport 350px text change to red.
-<img src="./images/" alt=""/>
+### My Portfolio Webpage
+<img src="../Bootstrap-Portfolio/images/Challenge2-myportfolio.png" alt=""/>
 
 ## Built with:
 
-- Media query
+- Media Queries
 - Flexbox
 - CSS Grid
 - Bootstrap
+- HTML
+- CSS
 
 ## What I learned
 
 To see how you can add code snippets, see below:
 
-```Media query
+### Media query
+
 @media screen and (max-width: 450px) {
   * {
     background-color: yellowgreen;
   }
 }
 
-```
+### CSS Grid  
 
-```CSS Grid
 .grid-templateAreas {
   display: grid;
   background-position: center;
@@ -53,9 +56,9 @@ To see how you can add code snippets, see below:
   height: 380px;
 }
 
-```
 
-```Flexbox
+### Flexbox
+
 ul {
   display: flex;
   justify-content: flex-end;
@@ -63,8 +66,8 @@ ul {
   background-color: black;
 }
 
-```
-```Bootstrap
+### Bootstrap
+
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">Fluid jumbotron</h1>
@@ -72,7 +75,7 @@ ul {
   </div>
 </div>
 
-```
+
 ## Links
 
 ### Source code location
