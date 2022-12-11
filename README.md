@@ -92,9 +92,11 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 ## Resources
 
-### Source code location for bootstrap
+### URL for resources
 
-https://getbootstrap.com/docs/4.3/components/jumbotron/
+- https://getbootstrap.com/docs/4.3/components/jumbotron/
+
+- https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 ## License
 
