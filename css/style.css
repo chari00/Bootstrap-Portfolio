@@ -98,7 +98,7 @@ h2 {
 
 .page-section {
   display: grid;
-  grid-template-columns: 65% 25%;
+  grid-template-columns: 60% 30%;
   background-color: rgb(187, 173, 173);
   margin: 15px 10px;
   gap: 15vh;
@@ -108,7 +108,48 @@ h2 {
   text-align: justify;
   text-indent: 10vh;
   color: black;
+  text-size-adjust: 20px;
 }
+
+/* -- THE CSS CODE BELOW WAS COPIED FROM (https://www.w3schools.com/html/html_forms.asp) FOR CONTACT FORM PURPOSE ONLY -- */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 0px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 5px; /* Add a top margin */
+  margin-bottom: 5px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
+/* Add a background color and some padding around the form */
+.container-w3s {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* -- THE CSS CODE ABOVE WAS COPIED FROM (https://www.w3schools.com/html/html_forms.asp) FOR CONTACT FORM PURPOSE ONLY-- */
 
 .list-contact a {
   color: darkblue;
