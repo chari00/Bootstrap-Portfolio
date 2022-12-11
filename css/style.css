@@ -1,156 +1,157 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
- body {
-    background-color: black;
- }
-
- #header {
-    display: flex;
-    width: 10%;
-    height: 25vh;
-    margin: 20px 30px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/logo.png);
+body {
+  background-color: black;
 }
 
+#header {
+  display: flex;
+  width: 10%;
+  height: 25vh;
+  margin: 10px 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/logo.png);
+}
+
+.header-container {
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  justify-content: space-between;
+}
 
 .container {
-    padding: 10px 10px;
-    display: inline; 
+  padding: 10px 10px;
+  display: inline;
 }
 
 .logo {
-    width: 50px;
-    display: inline-block;
-    display: flex;
-    justify-content: left;
-    /* align-items: left; */
-
-
+  width: 50px;
+  display: inline-block;
+  display: flex;
+  justify-content: left;
+  /* align-items: left; */
 }
 
 h1 {
-    display: flex;
-    color:aliceblue;
-    font-style: italic ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  color: aliceblue;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* .M {
-    color: red;
-}   
-
-.C1 {
-    color: blue;
-
-}
-
-.C2 {
-    color: yellow ;
-}
-
-.M, .C1, .C2 {
-    font-size: larger;
-
-} */
 p {
-    color: white;
+  color: white;
+  text-indent: 25px;
+  text-align: justify;
+  text-align: start;
 }
 
-
-.navlist-item a{
-    display: inline;
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    position: relative;
-    margin: 10px 10px;
-    
-    
+.navlist-item a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  position: relative;
+  margin: 20px 40px;
 }
 .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    list-style: none;
-    justify-items: end;
-    
-    
-
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: end;
 }
+
+.navbar {
+  width: 70%;
+}
+
 .navbar a:hover {
-    color: darkred;
+  color: greenyellow;
+  cursor: pointer;
 }
 
-
+.text-black {
+  color: black;
+}
 
 h2 {
-    color: white;
-}
-
-.page-section {
-    /* display: grid; */
-    /* grid-template-columns: 25% 65%; */
-    /* grid-template-columns: 1fr */
-    background-color: rgb(43, 39, 39);
-
-
-
-}
-/* 
-.work {
-    width: 90%;
-    height: 15vh;
-    background-size: cover;
-    background-position: end;
-    
-} */
-
-.contact a{
-    padding: 10px;
+  color: white;
 }
 
 .jumbotron {
-    background-color: black;
-    background-image: url(../images/Profile-picture.jpg);
-    background-repeat: no-repeat;
-    margin: 10vh 20vh;
-    padding: 35px;
+  background-color: black;
+  background-image: url(../images/Profile-picture.jpg);
+  background-repeat: no-repeat;
+  margin: 10vh 20vh;
+  padding: 35px;
 }
 
 .jumbo-intro {
-    width:fit-content;
-    margin-left: 35vh;
-    
+  width: fit-content;
+  margin-left: 35vh;
+}
+
+.page-section {
+  display: grid;
+  grid-template-columns: 65% 25%;
+  background-color: rgb(187, 173, 173);
+  margin: 15px 10px;
+  gap: 15vh;
+}
+
+.p-about {
+  text-align: justify;
+  text-indent: 10vh;
+  color: black;
+}
+
+.list-contact a {
+  color: darkblue;
+  display: flex;
+}
+
+.contact-item {
+  list-style-type: square;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  margin: 0px 15px;
 }
 
 .card-text {
-    color: black;
+  color: black;
 }
 
 .card {
-    display: flex;
+  display: flex;
 }
 
 .list-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    color: white;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: white;
 }
 .skill-item {
-    list-style-type: disc;
+  list-style-type: disc;
+}
+
+.button-shadow:hover {
+  box-shadow: 0 0 11px #bd0606ce;
 }
 
 .list-contact .contact-item {
-    display: flex inline;
-    flex-direction: row;
-    justify-content: end;
+  display: flex inline;
+  flex-direction: row;
+  justify-content: end;
 }
 
 /* 
