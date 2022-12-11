@@ -1,6 +1,7 @@
 # My Portfolio
 
 ## Table of Content
+
 1. Description
 2. Visual
 3. Built with:
@@ -10,18 +11,22 @@
 7. License
 
 ## Description
+
 Portfolio webpage composed with bootstrap.
 
 ## Visual
 
 ### Pre-work study Guide
-<img src="../Bootstrap-Portfolio/images/pre-work.png" alt=""/>
+
+<img src="../Bootstrap-Portfolio/images/pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
 
 ### Horiseon Website Project
-<img src="../Bootstrap-Portfolio/images/Challenge1-Horiseon.png" alt=""/>
+
+<img src="../Bootstrap-Portfolio/images/Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
 
 ### My Portfolio Webpage
-<img src="../Bootstrap-Portfolio/images/Challenge2-myportfolio.png" alt=""/>
+
+<img src="../Bootstrap-Portfolio/images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
 ## Built with:
 
@@ -39,31 +44,31 @@ To see how you can add code snippets, see below:
 ### Media query
 
 @media screen and (max-width: 450px) {
-  * {
-    background-color: yellowgreen;
-  }
-}
 
-### CSS Grid  
+- {
+  background-color: yellowgreen;
+  }
+  }
+
+### CSS Grid
 
 .grid-templateAreas {
-  display: grid;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  border: 5px aquamarine solid;
-  height: 380px;
+display: grid;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+cursor: pointer;
+border: 5px aquamarine solid;
+height: 380px;
 }
-
 
 ### Flexbox
 
 ul {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  background-color: black;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+background-color: black;
 }
 
 ### Bootstrap
@@ -75,24 +80,22 @@ ul {
   </div>
 </div>
 
-
 ## Links
 
 ### Source code location
-https://github.com/chari00/challenge-2 
+
+https://github.com/chari00/challenge-2
 
 ### Website URL
-https://chari00.github.io/Bootstrap-Portfolio/ 
 
+https://chari00.github.io/Bootstrap-Portfolio/
 
 ## Resources
 
 ### Source code location for bootstrap
-https://getbootstrap.com/docs/4.3/components/jumbotron/ 
 
+https://getbootstrap.com/docs/4.3/components/jumbotron/
 
 ## License
 
 This project is licensed by MIT.
-
-
