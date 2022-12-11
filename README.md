@@ -1,15 +1,15 @@
 # My Portfolio
+## Table of Content
+1. Description
+2. Visual
+3. Built with:
+4. What I learned
+5. Links
+6. Resources
+7. License
 
 ## Description
 Portfolio webpage composed with bootstrap.
-
-
-## Table of Content
-- 
-- 
-- 
-- 
-
 
 ## Visual
 
@@ -22,17 +22,14 @@ Portfolio webpage composed with bootstrap.
 ### Small viewport 350px text change to red.
 <img src="./images/" alt=""/>
 
-
-
-
-### Built with
+## Built with:
 
 - Media query
 - Flexbox
 - CSS Grid
 - Bootstrap
 
-### What I learned
+## What I learned
 
 To see how you can add code snippets, see below:
 
@@ -82,11 +79,13 @@ ul {
 https://github.com/chari00/challenge-2 
 
 ### Website URL
-https://chari00.github.io/My-Portfolio/ 
+https://chari00.github.io/Bootstrap-Portfolio/ 
+
+
+## Resources
 
 ### Source code location for bootstrap
 https://getbootstrap.com/docs/4.3/components/jumbotron/ 
-
 
 
 ## License
