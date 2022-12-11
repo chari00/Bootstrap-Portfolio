@@ -11,7 +11,7 @@ body {
 
 #header {
   display: flex;
-  width: 15%;
+  width: 10%;
   height: 25vh;
   margin: 10px 20px;
   background-size: cover;
@@ -46,6 +46,9 @@ h1 {
 }
 p {
   color: white;
+  text-indent: 25px;
+  text-align: justify;
+  text-align: start;
 }
 
 .navlist-item a {
@@ -68,30 +71,16 @@ p {
 }
 
 .navbar a:hover {
-  color: darkred;
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.text-black {
+  color: black;
 }
 
 h2 {
   color: white;
-}
-
-.page-section {
-  /* display: grid; */
-  /* grid-template-columns: 25% 65%; */
-  /* grid-template-columns: 1fr */
-  background-color: rgb(43, 39, 39);
-}
-/* 
-.work {
-    width: 90%;
-    height: 15vh;
-    background-size: cover;
-    background-position: end;
-    
-} */
-
-.contact a {
-  padding: 10px;
 }
 
 .jumbotron {
@@ -105,6 +94,36 @@ h2 {
 .jumbo-intro {
   width: fit-content;
   margin-left: 35vh;
+}
+
+.page-section {
+  display: grid;
+  grid-template-columns: 65% 25%;
+  background-color: rgb(187, 173, 173);
+  margin: 15px 10px;
+  gap: 15vh;
+}
+
+.p-about {
+  text-align: justify;
+  text-indent: 10vh;
+  color: black;
+}
+
+.list-contact a {
+  color: darkblue;
+  display: flex;
+}
+
+.contact-item {
+  list-style-type: square;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  margin: 0px 15px;
 }
 
 .card-text {
@@ -126,7 +145,7 @@ h2 {
 }
 
 .button-shadow:hover {
-  box-shadow: 0 0 11px #ff0000b0;
+  box-shadow: 0 0 11px #bd0606ce;
 }
 
 .list-contact .contact-item {

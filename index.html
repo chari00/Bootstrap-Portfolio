@@ -23,10 +23,7 @@
 
   <body>
     <div class="header-container">
-      <div id="header">
-        <!-- <img src="./images/logo.png" class="logo"> -->
-      </div>
-      <!-- <h1><span class="M">M</span>a<br><span class="C1">C</span>harito<br><span class="C2">C</span>ruz</h1> -->
+      <div id="header"></div>
       <nav class="navbar">
         <ul class="nav-list">
           <li class="navlist-item">
@@ -62,28 +59,54 @@
 
     <div class="page-section">
       <section id="About">
-        <h2>About Me</h2>
+        <h2 class="text-black">About Me</h2>
         <div>
-          <p>
+          <p class="p-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             necessitatibus sint ducimus ex exercitationem. Iure provident sequi
             in aut asperiores laudantium facere aliquam. Eaque quae vitae labore
             nam error sint?
           </p>
-          <p>
+          <p class="p-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             necessitatibus sint ducimus ex exercitationem. Iure provident sequi
             in aut asperiores laudantium facere aliquam. Eaque quae vitae labore
             nam error sint?
           </p>
-          <a href="../Bootstrap-Portfolio/resume.html"
-            >Click here to view my resume</a
+          <a href="./resume.html" class="btn btn-primary button-shadow"
+            >Click here to view my CV</a
           >
         </div>
       </section>
-      <section id="Work">
-        <h2>Work</h2>
 
+      <section id="Contact">
+        <h2 class="text-black">Contact Me</h2>
+        <ul class="list-contact">
+          <li class="contact-item">
+            <a href="tel:111.111.1111">111.111.1111</a>
+          </li>
+          <li class="contact-item">
+            <a href="mailto:macharitocruzuk@gmail.com"
+              >macharitocruzuk@gmail.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a href="https://github.com/chari00">GitHub</a>
+          </li>
+          <li class="contact-item">
+            <a href="https://twitter.com/">twitter</a>
+          </li>
+          <li class="contact-item">
+            <a href="https://facebook.com/">facebook</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section id="Work">
+      <h2>Work</h2>
+
+      <section class="work-container">
         <div>
           <div class="card" style="width: 18rem">
             <img src="./images/pre-work.png" class="card-img-top" alt="..." />
@@ -144,44 +167,18 @@
           </div>
         </div>
       </section>
-      <section id="Skills">
-        <h2>Skills</h2>
-        <ul class="list-skills">
-          <li class="skill-item">Html</li>
-          <li class="skill-item">CSS</li>
-          <li class="skill-item">Flex</li>
-          <li class="skill-item">Grid</li>
-          <li class="skill-item">Bootstrap</li>
-          <li class="skill-item">Media queries</li>
-        </ul>
-      </section>
-
-      <!-- jumbotron -->
-      <section></section>
-
-      <section id="Contact">
-        <h2>Contact Me</h2>
-        <ul class="list-contact">
-          <li class="contact-item">
-            <a href="tel:111.111.1111">111.111.1111</a>
-          </li>
-          <li class="contact-item">
-            <a href="mailto:macharitocruzuk@gmail.com"
-              >macharitocruzuk@gmail.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a href="https://github.com/chari00">GitHub</a>
-          </li>
-          <li class="contact-item">
-            <a href="https://twitter.com/">twitter</a>
-          </li>
-          <li class="contact-item">
-            <a href="https://facebook.com/">facebook</a>
-          </li>
-        </ul>
-      </section>
-    </div>
+    </section>
+    <section id="Skills">
+      <h2>Skills</h2>
+      <ul class="list-skills">
+        <li class="skill-item">Html</li>
+        <li class="skill-item">CSS</li>
+        <li class="skill-item">Flex</li>
+        <li class="skill-item">Grid</li>
+        <li class="skill-item">Bootstrap</li>
+        <li class="skill-item">Media queries</li>
+      </ul>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
