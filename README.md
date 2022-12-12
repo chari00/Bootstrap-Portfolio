@@ -110,6 +110,8 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 - https://www.w3schools.com/howto/howto_css_contact_form.asp
 
+- https://fontawesome.com/icons
+
 ## License
 
 This project is licensed by MIT.
