@@ -106,8 +106,8 @@ h3 {
 }
 
 .jumbo-intro {
-  width: 150%;
-  margin-left: 75vh;
+  width: 200%;
+  margin-left: 65vh;
 }
 
 .page-section {
@@ -230,8 +230,33 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 450px) {
-  * {
-    background-color: red;
+@media screen and (max-width: 1000px) {
+  h1 {
+    color: red;
+  }
+
+  h2 {
+    background-color: pink;
+  }
+  .text-black {
+    color: red;
+  }
+  .page-section {
+    background-color: aquamarine;
+  }
+  .list-contact {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-container {
+    background-color: lightskyblue;
+  }
+  .card-body {
+    background-color: rgb(247, 146, 14);
+  }
+  .navlist-item a {
+    color: rgb(229, 20, 236);
   }
 }
