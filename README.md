@@ -18,15 +18,15 @@ Portfolio webpage composed with bootstrap.
 
 ### Pre-work study Guide
 
-<img src="./images/pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
+<img src="./pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
 
 ### Horiseon Website Project
 
-<img src="./images/Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
+<img src="./Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
 
 ### My Portfolio Webpage
 
-<img src="./images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
+<img src="./Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
 ## Built with:
 
