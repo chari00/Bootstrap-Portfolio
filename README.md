@@ -28,6 +28,14 @@ Portfolio webpage composed with bootstrap.
 
 <img src="./images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
+### Bootstrap Portfolio Webpage
+
+<img src="./images/Bootstrap-portfolio-page.png" alt="image of my portfolio page at full view"/>
+
+### Bootstrap Portfolio with Media queries max-width of 900px
+
+<img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
+
 ## Built with:
 
 - Media Queries
