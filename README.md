@@ -96,7 +96,7 @@ background-color: black;
 
 ### Source code location
 
-https://github.com/chari00/challenge-2
+https://github.com/chari00/Bootstrap-Portfolio
 
 ### Website URL
 
