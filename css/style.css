@@ -210,7 +210,6 @@ input[type="submit"]:hover {
 .list-contact {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: white;
   background-color: #f2f2f2;
 }
 
