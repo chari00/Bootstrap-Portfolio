@@ -45,6 +45,9 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h2 {
+  font-style: italic;
+}
 p {
   color: white;
   text-indent: 25px;
@@ -204,10 +207,22 @@ input[type="submit"]:hover {
   box-shadow: 0 0 11px #bd0606ce;
 }
 
-.list-contact .contact-item {
-  display: flex inline;
-  flex-direction: row;
-  justify-content: end;
+.list-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  margin: 10px 10px;
+  padding: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+.contact-item a {
+  color: white;
 }
 
 /* 
@@ -215,4 +230,4 @@ input[type="submit"]:hover {
 @media screen and (max-with: 450px) {
 
     
-} */
+} */ ;
