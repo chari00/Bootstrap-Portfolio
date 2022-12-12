@@ -36,7 +36,7 @@
             <a href="#Skills">Skills</a>
           </li>
           <li class="navlist-item">
-            <a href="#Contact">Contact Me</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -59,19 +59,25 @@
 
     <div class="page-section">
       <section id="About">
-        <h2 class="text-black">About Me</h2>
+        <h1 class="text-black" class="text-align">About Me</h1>
         <div>
           <p class="p-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             necessitatibus sint ducimus ex exercitationem. Iure provident sequi
-            in aut asperiores laudantium facere aliquam. Eaque quae vitae labore
-            nam error sint?
+            in aut asperiores Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Accusantium necessitatibus sint ducimus ex exercitationem.
+            Iure provident sequi in aut asperiores laudantium facere aliquam.
+            Eaque quae vitae labore nam error sint?laudantium facere aliquam.
+            Eaque quae vitae labore nam error sint?
           </p>
           <p class="p-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             necessitatibus sint ducimus ex exercitationem. Iure provident sequi
-            in aut asperiores laudantium facere aliquam. Eaque quae vitae labore
-            nam error sint?
+            in aut asperiores Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Accusantium necessitatibus sint ducimus ex exercitationem.
+            Iure provident sequi in aut asperiores laudantium facere aliquam.
+            Eaque quae vitae labore nam error sint?laudantium facere aliquam.
+            Eaque quae vitae labore nam error sint?
           </p>
           <a href="./resume.html" class="btn btn-primary button-shadow"
             >Click here to view my CV</a
@@ -79,32 +85,53 @@
         </div>
       </section>
 
-      <section id="Contact">
-        <h2 class="text-black">Contact Me</h2>
-        <ul class="list-contact">
-          <li class="contact-item">
-            <a href="tel:111.111.1111">111.111.1111</a>
-          </li>
-          <li class="contact-item">
-            <a href="mailto:macharitocruzuk@gmail.com"
-              >macharitocruzuk@gmail.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a href="https://github.com/chari00">GitHub</a>
-          </li>
-          <li class="contact-item">
-            <a href="https://twitter.com/">twitter</a>
-          </li>
-          <li class="contact-item">
-            <a href="https://facebook.com/">facebook</a>
-          </li>
-        </ul>
-      </section>
+      <div class="container-w3s">
+        <section id="Contact">
+          <h1 class="text-black" class="text-align">Contact Me</h1>
+        </section>
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="E-mail">E-mail</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your E-mail address.."
+          />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 80px"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Submit"
+            class="btn btn-primary button-shadow"
+          />
+        </form>
+      </div>
     </div>
 
     <section id="Work">
-      <h2>Work</h2>
+      <h1 class="text-align">Work</h1>
 
       <section class="work-container">
         <div>
@@ -173,16 +200,42 @@
       </section>
     </section>
     <section id="Skills">
-      <h2>Skills</h2>
-      <ul class="list-skills">
-        <li class="skill-item">Html</li>
-        <li class="skill-item">CSS</li>
-        <li class="skill-item">Flex</li>
-        <li class="skill-item">Grid</li>
-        <li class="skill-item">Bootstrap</li>
-        <li class="skill-item">Media queries</li>
-      </ul>
+      <section class="list-skills">
+        <h1 class="text-black" class="text-align">Skills</h1>
+        <section class="skill-item">
+          <h3>Html</h3>
+          <h3>CSS</h3>
+          <h3>Flex</h3>
+          <h3>Grid</h3>
+          <h3>Bootstrap</h3>
+          <h3>Media queries</h3>
+        </section>
+      </section>
     </section>
+
+    <footer>
+      <section id="footer">
+        <ul class="list-contact">
+          <li class="contact-item">
+            <a href="tel:111.111.1111">111.111.1111</a>
+          </li>
+          <li class="contact-item">
+            <a href="mailto:macharitocruzuk@gmail.com"
+              >macharitocruzuk@gmail.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a href="https://github.com/chari00">GitHub</a>
+          </li>
+          <li class="contact-item">
+            <a href="https://twitter.com/">twitter</a>
+          </li>
+          <li class="contact-item">
+            <a href="https://facebook.com/">facebook</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -1,4 +1,4 @@
-# My Portfolio
+# Bootstrap Portfolio
 
 ## Table of Content
 
@@ -18,15 +18,15 @@ Portfolio webpage composed with bootstrap.
 
 ### Pre-work study Guide
 
-<img src="../Bootstrap-Portfolio/images/pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
+<img src="./images/pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
 
 ### Horiseon Website Project
 
-<img src="../Bootstrap-Portfolio/images/Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
+<img src="./images/Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
 
 ### My Portfolio Webpage
 
-<img src="../Bootstrap-Portfolio/images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
+<img src="./images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
 ## Built with:
 
@@ -92,9 +92,11 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 ## Resources
 
-### Source code location for bootstrap
+### URL for resources
 
-https://getbootstrap.com/docs/4.3/components/jumbotron/
+- https://getbootstrap.com/docs/4.3/components/jumbotron/
+
+- https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 ## License
 
