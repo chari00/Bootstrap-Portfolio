@@ -97,13 +97,17 @@ h3 {
   background-color: black;
   background-image: url(../images/Profile-picture.jpg);
   background-repeat: no-repeat;
-  margin: 10vh 20vh;
-  padding: 35px;
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px 30px 20px;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
 }
 
 .jumbo-intro {
-  width: fit-content;
-  margin-left: 35vh;
+  width: 200%;
+  margin-left: 65vh;
 }
 
 .page-section {
@@ -186,7 +190,7 @@ input[type="submit"]:hover {
 }
 
 .list-skills {
-  background-image: url(/images/bootstrap-logo.png);
+  background-image: url(../images/bootstrap-logo.png);
   width: 100%;
   height: 40vh;
   margin: 20px 10px 20px 20px;
@@ -210,7 +214,7 @@ input[type="submit"]:hover {
 .list-contact {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: white;
+  background-color: #f2f2f2;
 }
 
 .contact-item {
@@ -222,12 +226,37 @@ input[type="submit"]:hover {
 }
 
 .contact-item a {
-  color: white;
+  color: rgb(24, 94, 11);
+  text-decoration: underline;
 }
 
-/* 
+@media screen and (max-width: 1000px) {
+  h1 {
+    color: red;
+  }
 
-@media screen and (max-with: 450px) {
+  h2 {
+    background-color: pink;
+  }
+  .text-black {
+    color: red;
+  }
+  .page-section {
+    background-color: aquamarine;
+  }
+  .list-contact {
+    background-color: pink;
+  }
+}
 
-    
-} */ ;
+@media screen and (max-width: 900px) {
+  .header-container {
+    background-color: lightskyblue;
+  }
+  .card-body {
+    background-color: rgb(247, 146, 14);
+  }
+  .navlist-item a {
+    color: rgb(229, 20, 236);
+  }
+}

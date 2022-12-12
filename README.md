@@ -28,6 +28,14 @@ Portfolio webpage composed with bootstrap.
 
 <img src="./images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
+### Bootstrap Portfolio Webpage
+
+<img src="./images/Bootstrap-portfolio-page.png" alt="image of my portfolio page at full view"/>
+
+### Bootstrap Portfolio with Media queries max-width of 900px
+
+<img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
+
 ## Built with:
 
 - Media Queries
@@ -96,7 +104,7 @@ background-color: black;
 
 ### Source code location
 
-https://github.com/chari00/challenge-2
+https://github.com/chari00/Bootstrap-Portfolio
 
 ### Website URL
 
@@ -109,6 +117,8 @@ https://chari00.github.io/Bootstrap-Portfolio/
 - https://getbootstrap.com/docs/4.3/components/jumbotron/
 
 - https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+- https://fontawesome.com/icons
 
 ## License
 
