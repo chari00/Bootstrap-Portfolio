@@ -211,6 +211,7 @@ input[type="submit"]:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: white;
+  background-color: #f2f2f2;
 }
 
 .contact-item {
@@ -222,7 +223,8 @@ input[type="submit"]:hover {
 }
 
 .contact-item a {
-  color: white;
+  color: rgb(24, 94, 11);
+  text-decoration: underline;
 }
 
 /* 
