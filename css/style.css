@@ -96,9 +96,7 @@ h3 {
 .jumbotron {
   background-color: black;
   background-image: url(../images/Profile-picture.jpg);
-  /* background-repeat: no-repeat;
-  margin: 10vh 20vh;
-  padding: 35px; */
+  background-repeat: no-repeat;
   width: 30%;
   height: 40vh;
   margin: 20px 10px 30px 20px;
