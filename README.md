@@ -18,15 +18,15 @@ Portfolio webpage composed with bootstrap.
 
 ### Pre-work study Guide
 
-<img src="./pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
+<img src="/images/pre-work.png" alt="an image of boxes with the topic HTML, CSS, GIT, JAVASCRIPT one topic in each box"/>
 
 ### Horiseon Website Project
 
-<img src="./Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
+<img src="/images/Challenge1-Horiseon.png" alt="an image of a group of people having a meeting"/>
 
 ### My Portfolio Webpage
 
-<img src="./Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
+<img src="./images/Challenge2-myportfolio.png" alt="an image of my portfolio telling about me, listing my work and contact references"/>
 
 ## Built with:
 
@@ -73,12 +73,24 @@ background-color: black;
 
 ### Bootstrap
 
-<div class="jumbotron jumbotron-fluid">
+< div class="jumbotron jumbotron-fluid">
+
   <div class="container">
     <h1 class="display-4">Fluid jumbotron</h1>
     <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
   </div>
-</div>
+< /div>
+
+< div class="card" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+< /div>
 
 ## Links
 
