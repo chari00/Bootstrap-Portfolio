@@ -10,11 +10,11 @@
 6. Resources
 7. License
 
-## Description
+## 1. Description
 
 Portfolio webpage composed with bootstrap.
 
-## Visual
+## 2. Visual
 
 ### Pre-work study Guide
 
@@ -36,7 +36,7 @@ Portfolio webpage composed with bootstrap.
 
 <img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
 
-## Built with:
+## 3. Built with:
 
 - Media Queries
 - Flexbox
@@ -45,7 +45,7 @@ Portfolio webpage composed with bootstrap.
 - HTML
 - CSS
 
-## What I learned
+## 4. What I learned
 
 To see how you can add code snippets, see below:
 
@@ -100,7 +100,7 @@ background-color: black;
 < /div>
 < /div>
 
-## Links
+## 5. Links
 
 ### Source code location
 
@@ -110,7 +110,7 @@ https://github.com/chari00/Bootstrap-Portfolio
 
 https://chari00.github.io/Bootstrap-Portfolio/
 
-## Resources
+## 6. Resources
 
 ### URL for resources
 
@@ -120,6 +120,6 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 - https://fontawesome.com/icons
 
-## License
+## 7. License
 
 This project is licensed by MIT.
