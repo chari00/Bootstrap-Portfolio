@@ -2,13 +2,13 @@
 
 ## Table of Content
 
-1.  [thislink](## 1. Description)
-2.  [thislink](## 2. Visual)
-3.  [thislink](## 3. Built-with:)
-4.  [thislink](## 4. What-I-learned)
-5.  [thislink](## 5. Links)
-6.  [thislink](## 6. Resources)
-7.  [thislink](## 7. License)
+1.  Description
+2.  Visual
+3.  Built with:
+4.  What I learned
+5.  Links
+6.  Resources
+7.  License
 
 ## 1. Description
 
