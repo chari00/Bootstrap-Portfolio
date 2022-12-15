@@ -2,19 +2,19 @@
 
 ## Table of Content
 
-1. Description
-2. Visual
-3. Built with:
-4. What I learned
-5. Links
-6. Resources
-7. License
+1. <a href="#Description">Description</a>
+2. <a href="#Visual">Visual</a>
+3. <a href="#Built with:">Built with:</a>
+4. <a href="#What I learned">What I learned</a>
+5. <a href="#Links">Links</a>
+6. <a href="#Resources">Resources</a>
+7. <a href="#License">License</a>
 
-## Description
+## 1. <section id="Description">Description</section>
 
 Portfolio webpage composed with bootstrap.
 
-## Visual
+## 2. <section id="Visual">Visual</section>
 
 ### Pre-work study Guide
 
@@ -36,7 +36,7 @@ Portfolio webpage composed with bootstrap.
 
 <img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
 
-## Built with:
+## 3. <section id="Built with:">Built with:</section>
 
 - Media Queries
 - Flexbox
@@ -45,7 +45,7 @@ Portfolio webpage composed with bootstrap.
 - HTML
 - CSS
 
-## What I learned
+## 4. <section id="What I learned">What I learned</section>
 
 To see how you can add code snippets, see below:
 
@@ -100,7 +100,7 @@ background-color: black;
 < /div>
 < /div>
 
-## Links
+## 5. <section id="Links">Links</section>
 
 ### Source code location
 
@@ -110,7 +110,7 @@ https://github.com/chari00/Bootstrap-Portfolio
 
 https://chari00.github.io/Bootstrap-Portfolio/
 
-## Resources
+## 6. <section id="Resources">Resources</section>
 
 ### URL for resources
 
@@ -120,6 +120,6 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 - https://fontawesome.com/icons
 
-## License
+## 7. <section id="License">License</section>
 
 This project is licensed by MIT.
