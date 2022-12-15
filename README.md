@@ -2,19 +2,19 @@
 
 ## Table of Content
 
-1. <a href="#Description">Description</a>
-2. <a href="#Visual">Visual</a>
-3. <a href="#Built with:">Built with:</a>
-4. <a href="#What I learned">What I learned</a>
-5. <a href="#Links">Links</a>
-6. <a href="#Resources">Resources</a>
-7. <a href="#License">License</a>
+1.  [thislink](## 1. Description)
+2.  [thislink](## 2. Visual)
+3.  [thislink](## 3. Built-with:)
+4.  [thislink](## 4. What-I-learned)
+5.  [thislink](## 5. Links)
+6.  [thislink](## 6. Resources)
+7.  [thislink](## 7. License)
 
-## 1. <section id="Description">Description</section>
+## 1. Description
 
 Portfolio webpage composed with bootstrap.
 
-## 2. <section id="Visual">Visual</section>
+## 2. Visual
 
 ### Pre-work study Guide
 
@@ -36,7 +36,7 @@ Portfolio webpage composed with bootstrap.
 
 <img src="./images/bootstrap-mediaqueries-900px.png" alt="image of my portfolio page with media queries function background turns to blue and pink at max-width of 900px"/>
 
-## 3. <section id="Built with:">Built with:</section>
+## 3. Built with:
 
 - Media Queries
 - Flexbox
@@ -45,7 +45,7 @@ Portfolio webpage composed with bootstrap.
 - HTML
 - CSS
 
-## 4. <section id="What I learned">What I learned</section>
+## 4. What I learned
 
 To see how you can add code snippets, see below:
 
@@ -53,10 +53,10 @@ To see how you can add code snippets, see below:
 
 @media screen and (max-width: 450px) {
 
-- {
-  background-color: yellowgreen;
-  }
-  }
+{
+background-color: yellowgreen;
+}
+}
 
 ### CSS Grid
 
@@ -100,7 +100,7 @@ background-color: black;
 < /div>
 < /div>
 
-## 5. <section id="Links">Links</section>
+## 5. Links
 
 ### Source code location
 
@@ -110,7 +110,7 @@ https://github.com/chari00/Bootstrap-Portfolio
 
 https://chari00.github.io/Bootstrap-Portfolio/
 
-## 6. <section id="Resources">Resources</section>
+## 6. Resources
 
 ### URL for resources
 
@@ -120,6 +120,8 @@ https://chari00.github.io/Bootstrap-Portfolio/
 
 - https://fontawesome.com/icons
 
-## 7. <section id="License">License</section>
+- https://developer.mozilla.org/en-US/docs/Learn
+
+## 7. License
 
 This project is licensed by MIT.
